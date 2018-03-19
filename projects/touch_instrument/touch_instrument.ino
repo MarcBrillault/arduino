@@ -7,7 +7,7 @@ const int minValue = 300;
 const int maxValue = 1000;
 
 const int multiplier = 1;
-const int delayBetweenNotes = 500;
+const int delayBetweenNotes = 10;
 
 int sensorValue = 0;
 int noteFrequency = 0;
