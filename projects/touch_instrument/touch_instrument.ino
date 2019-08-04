@@ -138,7 +138,7 @@ bool shouldPlayNote() {
 }
 
 void setNote() {
-  noteFrequency = getNearestNote(sensorValue * multiplier);
+  noteFrequency = getNearestNote(sensorValue+50 * multiplier);
   Serial.println(noteFrequency);
 }
 
