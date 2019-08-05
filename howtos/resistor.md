@@ -5,6 +5,8 @@ If a golden or silver stripe is found, it should be on the right. Otherwise, the
 
 The stripes are then read from left to right.
 
+The orientation only matters for reading the resistor's value. In a circuit, the resistor's orientation does not matter.
+
 ## Stripes
 
 A resistor has 4 to 6 stripes, which are :
