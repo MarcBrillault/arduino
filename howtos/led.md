@@ -1,4 +1,12 @@
-# LEDs
+# LEDs (Light-emitting diodes)
+
+![Array of light-emitting diodes](./images/led_image.jpg)
+
+[Photo CC-BY-NC-ND Prashant Maxsteel](https://www.flickr.com/photos/prashantmaxsteel/2576793393/)
+
+## Symbol
+
+![Electronic symbol for a LED](./images/led_symbol.svg)
 
 ## Identifying a LED's pins
 
@@ -7,12 +15,15 @@
 - Identifying with pin length
     - The longest pin is the **positive** pin (Anode)
     - The shortest pin is the **negative** pin (Cathode)
+    
 - Identifying by looking at the LED's plastic shell
     - If one side of the plastic base is flat, the pin on this side is
     the **negative pin**
+    
 - Identifying by lookin inside the LED's plastic shell
     - the smallest part is connected to the **positive** pin
     - the thickest part is connected to the **negative** pin.
+    
 - Identifying with a 3V coin cell battery
     - If the LED lights up, the pin on the side of the battery's + is the
     **positive** pin
@@ -20,6 +31,11 @@
     so there's no need for a resistor here.
 
 - Identifying with a multimeter
+    - Align the multimeter knob with the diode symbol 
+    ![Diode symbol](./images/diode_symbol.svg)
+    - Put the red multimeter tip on one of the LED's pins, and the black to the other
+    - When the LED lights up, its **positive** pin is the one connected to the
+    multimeter's red tip.
 
 ### RGB LED pins
 
@@ -36,14 +52,11 @@ from left to right:
 - Blue
 
 To identify whether the longest pin is an anode or a cathode,
-use a multimeter :
-- put the multimeter on 20V DC
-- place the red multimeter tip on the longest pin, and the black on any
-other pin
-    - If the LED lights up, the longest pin is an anode
-- place the black multimeter tip on the longest pin, and the red on any
-other pin
-    - If the LED lights up, the longest pin is a cathode
+a multimeter can be used exactly like previously said for the 2-pin LED, as well 
+as the 3V coin cell battery :
+
+If the LED lights up and the longest pin is connected to the positive,
+then it is an **anode**, otherwise it is a cathode.
     
 ### Other LEDS
 
